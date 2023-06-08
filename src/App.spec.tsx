@@ -5,6 +5,6 @@ import App from "./App";
 describe("App Component", () => {
   it("Should be able to show info", () => {
     const { getByText } = render(<App />);
-    expect(getByText("Vite + React")).toBeInTheDocument();
+    expect(getByText("Vite + Reacts")).toBeInTheDocument();
   });
 });
