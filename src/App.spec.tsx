@@ -5,6 +5,6 @@ import App from "./App";
 describe("App Component", () => {
   it("Should be able to show info", () => {
     const { getByText } = render(<App />);
-    expect(getByText("CI Testing")).toBeInTheDocument();
+    expect(getByText("Nova linha")).toBeInTheDocument();
   });
 });
